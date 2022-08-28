@@ -1,0 +1,134 @@
+*{letter-spacing: 1.5px;}
+header {
+  display: flex;
+  /*A flex container expands items to fill available free space or shrinks them to prevent overflow.*/
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4e1fc;
+}
+body{  background-color: #f4e1fc;}
+a{font-family: 'Open Sans', sans-serif;background-color: #fff; transition: background-color .5s; padding: 3px 3px 3px;border-radius: 25px;}
+a:hover{background-color:#9af5a3}
+h1{font-family: 'Merriweather', serif;font-weight: bolder;text-shadow:1.5px 1.5px black;}
+.title>a
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.self
+{
+  padding: 2em 5em 2em;
+  border-radius: 50%;
+
+}
+
+#about
+{
+  display: flex;
+
+}
+#intro
+{
+  letter-spacing:1px;
+  color: white;
+  padding: 2% 20% 5%;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2)
+
+}
+#skills{
+
+  background-color: #f2e4f1;
+
+}
+h2{font-family: 'Merriweather', serif
+font-weight: bolder;
+text-shadow: 1.5px 1.5px black;
+}
+
+.skillname{padding-bottom: 7px; padding-top: 10px; font-family: 'Open Sans', sans-serif;}
+.container {
+  width: 30%;
+  background-color: #ddd;
+}
+#lang{font-family: 'Open Sans', sans-serif;font-weight: bolder;}
+.Skillclass{
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+
+#Education,#contact{background-color: white;padding-bottom: 10px;text-align-last: center;}
+.C {width: 50%; background-color: #1068eb;}
+
+.Cpp {width: 70%; background-color: #1068eb;}
+
+.HTML {width: 80%; background-color: #1068eb;}
+.JS {width: 40%; background-color: #1068eb;}
+.Python {width: 80%; background-color: #1068eb;}
+.CoreJava {width: 70%; background-color: #1068eb;}
+.DBMS {width: 60%; background-color: #1068eb;}
+.Spring{ width: 30%;background-color: #1068eb;}
+.btech,.intermediate,.tenth{
+  width:30%;
+  padding: 10px 10px 15px;
+  background-color: #8cfaa9;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  margin-left: 31em;
+  margin-right: 30em;
+  font-size: 16px;
+  font-weight: 200;
+
+}
+
+.btech:hover,.intermediate:hover ,.tenth:hover{
+   background-color:#e1f2e3;
+   transition: background-color .5s;
+}
+
+#Projects
+{
+  background-color: #cbf7ee;
+  padding-bottom: 20px;
+
+}
+.proj1,.proj2{
+  padding: 10px 10px 15px;
+  width:40%;
+  background-color: white;
+  border-radius: 25px;
+  border-color: #cbf7ee;
+  margin: 10px 10px 0;
+}
+.fa-linkedin{
+  padding-left: 5em;
+}
+.fa{
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+.p1{
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 30%;
+  background-color: #c5d3eb;
+  border-radius: 25px;
+  text-shadow: black;
+  padding: 3px 3px 3px;
+  text-align: center;
+}
+.fa:hover{color: red;}
+.none:hover{background-color: white;}
+
+
+
+
+}
